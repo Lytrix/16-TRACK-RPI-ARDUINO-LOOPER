@@ -1,50 +1,50 @@
 #N canvas 7 66 307 654 12;
-#X obj 61 203 vsl 25 160 0.01 1 1 1 MOUT0 MIN0 empty 0 -9 0 10 -262144
--1 -1 15900 1;
-#X obj 97 203 vsl 25 160 0.01 1 1 1 MOUT1 MIN1 empty 0 -9 0 10 -262144
--1 -1 15900 1;
-#X obj 133 203 vsl 25 160 0.01 1 1 1 MOUT2 MIN2 empty 0 -9 0 10 -262144
--1 -1 15900 1;
-#X obj 168 203 vsl 25 160 0.01 1 1 1 MOUT3 MIN3 empty 0 -9 0 10 -262144
--1 -1 15900 1;
-#X obj 57 108 hradio 35 0 0 4 empty T_TARGET empty 0 -4 0 4 -262144
--1 -1 0;
+#X obj 61 203 vsl 25 160 0.01 1 1 1 MOUT0 MIN0 empty 0 -9 0 10 #fcfcfc
+#000000 #000000 15900 1;
+#X obj 97 203 vsl 25 160 0.01 1 1 1 MOUT1 MIN1 empty 0 -9 0 10 #fcfcfc
+#000000 #000000 15900 1;
+#X obj 133 203 vsl 25 160 0.01 1 1 1 MOUT2 MIN2 empty 0 -9 0 10 #fcfcfc
+#000000 #000000 15900 1;
+#X obj 168 203 vsl 25 160 0.01 1 1 1 MOUT3 MIN3 empty 0 -9 0 10 #fcfcfc
+#000000 #000000 15900 1;
+#X obj 57 108 hradio 35 0 0 4 empty T_TARGET empty 0 -4 0 4 #fcfcfc
+#000000 #000000 0;
 #X floatatom 71 144 2 0 0 0 - TSI0 -, f 2;
 #X floatatom 105 144 2 0 0 0 - TSI1 -, f 2;
 #X floatatom 140 144 2 0 0 0 - TSI2 -, f 2;
 #X floatatom 176 144 2 0 0 0 - TSI3 -, f 2;
-#X obj 39 22 hradio 46 0 0 4 empty L_TARGET empty 0 -4 0 4 -262144
--1 -1 0;
+#X obj 39 22 hradio 46 0 0 4 empty L_TARGET empty 0 -4 0 4 #fcfcfc
+#000000 #000000 0;
 #X floatatom 57 68 2 0 0 0 - 1-LS -, f 2;
 #X floatatom 101 68 2 0 0 0 - 2-LS -, f 2;
 #X floatatom 146 68 2 0 0 0 - 3-LS -, f 2;
 #X floatatom 197 67 2 0 0 0 - 4-LS -, f 2;
-#X obj 18 521 tgl 18 0 empty light1 empty 17 7 0 10 -247126 -181395
--1 0 1;
-#X obj 82 519 tgl 18 0 empty light2 empty 17 7 0 10 -117404 -59471
--1 0 1;
+#X obj 18 521 tgl 18 0 empty light1 empty 17 7 0 10 #f05454 #b04848
+#000000 0 1;
+#X obj 82 519 tgl 18 0 empty light2 empty 17 7 0 10 #70a86c #388438
+#000000 0 1;
 #X text 74 587 Play;
-#X obj 3 539 bng 46 250 50 0 B-ONE empty empty 17 7 0 10 -209545 -1
--1;
-#X obj 67 538 bng 48 250 50 0 B-TWO empty empty 17 7 0 10 -54928 -117084
--1;
-#X obj 129 538 bng 49 250 50 0 B-FOUR empty empty 17 7 0 10 -99941
--1 -1;
-#X obj 193 536 bng 51 250 50 0 B-FIVE empty empty 17 7 0 10 -120744
--1 -1;
-#X obj 211 518 tgl 18 0 empty light4 empty 17 7 0 10 -261441 -1 -1
-0 1;
-#X obj 196 449 bng 46 250 50 0 B-THREE empty empty 17 7 0 10 -20806
--1 -1;
+#X obj 3 539 bng 46 250 50 0 B-ONE empty empty 17 7 0 10 #cc2820 #000000
+#000000;
+#X obj 67 538 bng 48 250 50 0 B-TWO empty empty 17 7 0 10 #34683c #70946c
+#000000;
+#X obj 129 538 bng 49 250 50 0 B-FOUR empty empty 17 7 0 10 #606490
+#000000 #000000;
+#X obj 193 536 bng 51 250 50 0 B-FIVE empty empty 17 7 0 10 #74789c
+#000000 #000000;
+#X obj 211 518 tgl 18 0 empty light4 empty 17 7 0 10 #fcd400 #000000
+#000000 0 1;
+#X obj 196 449 bng 46 250 50 0 B-THREE empty empty 17 7 0 10 #141414
+#000000 #000000;
 #X text 4 586 Record;
-#X obj 145 519 tgl 19 0 empty light3 empty 17 7 0 10 -46122 -205064
--1 0 1;
+#X obj 145 519 tgl 19 0 empty light3 empty 17 7 0 10 #2c40a4 #c8101c
+#000000 0 1;
 #X floatatom 87 371 7 0 0 0 - FADE_TIME -, f 7;
 #X text 143 373 msec;
 #X obj 63 392 hsl 128 15 40 10000 0 1 FADE_TIME POT5 empty -2 -8 0
-10 -262144 -1 -1 3774 1;
-#X obj 6 447 bng 47 250 50 0 B-EIGHT empty empty 17 7 0 10 -207497
--1 -1;
+10 #fcfcfc #000000 #000000 3774 1;
+#X obj 6 447 bng 47 250 50 0 B-EIGHT empty empty 17 7 0 10 #c8a820
+#000000 #000000;
 #X text 144 586 <<;
 #X text 208 588 >>;
 #X text 10 495 Track;
@@ -52,32 +52,32 @@
 #X text 78 407 1;
 #X text 126 406 5;
 #X text 183 406 10;
-#X obj 61 162 hsl 25 39 0.01 1 0 1 POUT0 PIN0 empty -2 -8 0 10 -262144
--1 -1 1188 1;
-#X obj 95 162 hsl 25 40 0.01 1 0 1 POUT1 PIN1 empty -2 -8 0 10 -262144
--1 -1 1188 1;
-#X obj 132 162 hsl 25 40 0.01 1 0 1 POUT2 PIN2 empty -2 -8 0 10 -262144
--1 -1 1188 1;
-#X obj 165 162 hsl 27 41 0.01 1 0 1 POUT3 PIN3 empty -2 -8 0 10 -262144
--1 -1 1287 1;
-#X obj 20 427 tgl 18 0 empty light5 empty 17 7 0 10 -247126 -1 -1 0
-1;
-#X obj 211 431 tgl 18 0 empty light6 empty 17 7 0 10 -117404 -59471
--1 0 1;
+#X obj 61 162 hsl 25 39 0.01 1 0 1 POUT0 PIN0 empty -2 -8 0 10 #fcfcfc
+#000000 #000000 1188 1;
+#X obj 95 162 hsl 25 40 0.01 1 0 1 POUT1 PIN1 empty -2 -8 0 10 #fcfcfc
+#000000 #000000 1188 1;
+#X obj 132 162 hsl 25 40 0.01 1 0 1 POUT2 PIN2 empty -2 -8 0 10 #fcfcfc
+#000000 #000000 1188 1;
+#X obj 165 162 hsl 27 41 0.01 1 0 1 POUT3 PIN3 empty -2 -8 0 10 #fcfcfc
+#000000 #000000 1287 1;
+#X obj 20 427 tgl 18 0 empty light5 empty 17 7 0 10 #f05454 #000000
+#000000 0 1;
+#X obj 211 431 tgl 18 0 empty light6 empty 17 7 0 10 #70a86c #388438
+#000000 0 1;
 #X text 114 -4 LOOP;
 #X text 108 88 TRACK;
-#X obj 100 447 bng 38 250 50 0 FADE empty empty 17 7 0 10 -131380 -1
--1;
+#X obj 100 447 bng 38 250 50 0 FADE empty empty 17 7 0 10 #8010cc #000000
+#000000;
 #X text 103 485 fade;
 #X text 53 407 0.2;
 #N canvas 316 66 318 654 Settings 1;
-#X obj 28 237 tgl 20 0 Q1T Q1T_UI_R empty 17 7 0 10 -8252 -262144 -1
-0 1;
+#X obj 28 237 tgl 20 0 Q1T Q1T_UI_R empty 17 7 0 10 #0800ec #fcfcfc
+#000000 0 1;
 #X text 59 236 Reggie Watts Mode;
-#X obj 28 213 tgl 21 0 PLAY_ALL_T PLAY_ALL_T_UI empty 17 7 0 10 -20981
--262144 -1 0 1;
-#X obj 22 331 tgl 19 0 CFT CFT_UI_R empty 17 7 0 10 -203526 -1 -1 0
-1;
+#X obj 28 213 tgl 21 0 PLAY_ALL_T PLAY_ALL_T_UI empty 17 7 0 10 #141cd0
+#fcfcfc #000000 0 1;
+#X obj 22 331 tgl 19 0 CFT CFT_UI_R empty 17 7 0 10 #c4b014 #000000
+#000000 0 1;
 #X text 54 331 Crossfade;
 #X text 58 212 Play all;
 #N canvas 16 75 1184 620 read_me 0;
@@ -156,18 +156,20 @@ loop is playing -- ya know \, a crossfade.;
 #X text 5 72 The first track of each loop sets the beat for that loop.
 ;
 #X restore 12 604 pd read_me;
-#X obj 44 442 tgl 19 0 MRT MRT_UI_R empty 17 7 0 10 -213253 -1 -1 0
-1;
-#X obj 27 486 tgl 19 0 AutoPT AutoPT_UI_R empty 17 7 0 10 -51788 -1
--1 0 1;
-#X obj 44 68 tgl 20 0 mon MON empty 17 7 0 10 -261441 -1 -1 0 1;
+#X obj 44 442 tgl 19 0 MRT MRT_UI_R empty 17 7 0 10 #d01010 #000000
+#000000 0 1;
+#X obj 27 486 tgl 19 0 AutoPT AutoPT_UI_R empty 17 7 0 10 #30a42c #000000
+#000000 0 1;
+#X obj 44 68 tgl 20 0 mon MON empty 17 7 0 10 #fcd400 #000000 #000000
+1 1;
 #X text 69 69 Monitor;
-#X obj 44 104 tgl 21 1 aux AUX empty 17 7 0 10 -183085 -1 -1 0 1;
+#X obj 44 104 tgl 21 1 aux AUX empty 17 7 0 10 #b0b0b0 #000000 #000000
+0 1;
 #X text 71 105 Ch 2 as Aux;
-#X obj 163 77 tgl 31 0 LIVERECORD liverecord empty 17 7 0 10 -33720
--197525 -1 0 1;
+#X obj 163 77 tgl 31 0 LIVERECORD liverecord empty 17 7 0 10 #2038dc
+#c03850 #000000 0 1;
 #X text 207 78 Session Record, f 8;
-#N canvas 663 66 446 654 CODE 0;
+#N canvas 663 66 446 654 CODE 1;
 #N canvas 504 123 739 568 changelight 0;
 #X obj 55 33 r changelight;
 #X obj 42 278 s rlight;
@@ -191,8 +193,8 @@ loop is playing -- ya know \, a crossfade.;
 #X obj 218 345 route 0 1 2 3;
 #N canvas 642 258 450 325 blink 0;
 #X obj 41 21 inlet;
-#X obj 52 221 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 52 221 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X obj 35 170 metro 500;
 #X msg 116 130 stop;
 #X obj 39 273 outlet;
@@ -239,8 +241,8 @@ loop is playing -- ya know \, a crossfade.;
 #X connect 19 3 17 0;
 #X connect 20 0 1 0;
 #X restore 202 315 pd changelight;
-#X obj 18 354 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 18 354 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 18 310 loadbang;
 #N canvas 604 77 606 635 left_or_right 0;
 #X obj 329 113 f;
@@ -346,14 +348,14 @@ loop is playing -- ya know \, a crossfade.;
 #X text 10 570 dm with questions;
 #X text 8 597 use whatever part of this you want;
 #N canvas 131 126 370 240 PLAY 0;
-#X obj 66 32 r PLAY;
-#X obj 18 176 s PLAY2;
+#X obj 49 16 r PLAY;
+#X obj 49 110 s PLAY2;
 #X obj 49 70 t b b;
-#X obj 113 152 s focus;
-#X obj 126 107 expr ($f1 * 4) + $f2;
-#X obj 148 55 r L_TARGET;
-#X obj 135 81 f;
-#X obj 258 77 r T_TARGET;
+#X obj 120 181 s focus;
+#X obj 120 143 expr ($f1 * 4) + $f2;
+#X obj 138 70 r L_TARGET;
+#X obj 120 111 f;
+#X obj 257 71 r T_TARGET;
 #X connect 0 0 2 0;
 #X connect 2 0 1 0;
 #X connect 2 1 6 0;
@@ -363,65 +365,65 @@ loop is playing -- ya know \, a crossfade.;
 #X connect 7 0 4 1;
 #X restore 12 22 pd PLAY;
 #N canvas 2 66 1214 654 TRACK_COMMANDS 0;
-#X obj 109 306 r CLEAR;
-#X msg 12 -21 1;
-#X msg 97 -20 2;
+#X obj 105 306 r CLEAR;
+#X msg 18 13 1;
+#X msg 103 14 2;
 #X obj 16 199 f;
-#X obj 31 160 r focus;
-#X msg 25 263 \$1 \$2;
+#X obj 34 162 r focus;
+#X msg 20 255 \$1 \$2;
 #X obj 20 227 pack f f;
-#X obj 25 127 t b f;
-#X msg 108 362 all 3;
-#X obj 96 447 outlet;
-#X msg 495 12 5;
-#X obj 372 -14 r CHANGE_RECORD;
-#X obj 496 -8 r C_STOP;
-#X msg 371 13 4;
-#X obj 584 -12 r CHANGE_FROM;
-#X obj 707 -8 r CHANGE_TO;
-#X msg 581 12 6;
-#X msg 706 16 7;
-#X obj 97 -44 r PLAY2;
-#X msg 416 236 25;
-#X msg 550 248 26;
-#X obj 11 -46 r RECORD2;
-#X text 486 -41 TRACK BUTTON;
-#X obj 413 201 r T_RECORD_STOP;
-#X obj 530 207 r T_PLAY_STOP;
-#X obj 652 209 r T_PLAY_START;
+#X obj 228 273 t b f;
+#X msg 105 367 all 3;
+#X obj 21 446 outlet;
+#X msg 369 16 5;
+#X obj 245 -13 r CHANGE_RECORD;
+#X obj 369 -13 r C_STOP;
+#X msg 245 16 4;
+#X obj 457 -11 r CHANGE_FROM;
+#X obj 579 -11 r CHANGE_TO;
+#X msg 457 17 6;
+#X msg 579 16 7;
+#X obj 103 -12 r PLAY2;
+#X msg 404 254 25;
+#X msg 530 254 26;
+#X obj 17 -12 r RECORD2;
+#X text 359 -40 TRACK BUTTON;
+#X obj 404 208 r T_RECORD_STOP;
+#X obj 530 209 r T_PLAY_STOP;
+#X obj 650 209 r T_PLAY_START;
 #X msg 650 254 27;
-#X text 452 159 LOOP BUTTON;
-#X text 497 80 OTHER;
-#X obj 411 103 r CHANGEFOCUS;
-#X msg 394 140 10;
-#X obj 553 109 r T_SHADOW;
-#X msg 556 142 42;
-#X obj 410 306 r S-RECORD;
-#X obj 537 305 r S-PLAY;
-#X msg 408 339 31;
-#X msg 538 340 32;
+#X text 482 179 LOOP BUTTON;
+#X text 855 -30 OTHER;
+#X obj 752 -8 r CHANGEFOCUS;
+#X msg 752 30 10;
+#X obj 914 -6 r T_SHADOW;
+#X msg 914 32 42;
+#X obj 405 311 r S-RECORD;
+#X obj 537 308 r S-PLAY;
+#X msg 405 347 31;
+#X msg 538 347 32;
 #X text 728 314 SAMPLER;
-#X msg 610 340 33;
+#X msg 617 346 33;
 #X obj 616 308 r T-SAMP-STOP;
-#X msg 379 475 55;
-#X obj 524 421 r T_FADE_OUT;
-#X msg 525 453 56;
+#X msg 402 447 55;
+#X obj 525 410 r T_FADE_OUT;
+#X msg 525 447 56;
 #X obj 402 410 r TRACK_FADE_IN;
 #X msg 197 351 changelight 0 \; LL0 0 \; LL1 0 \; LL2 0 \; LL3 0 \;
 focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 0;
-#X obj 780 203 r T_EMPTY_ON_NEW;
-#X msg 778 247 28;
-#X obj 665 82 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X floatatom 96 253 5 0 0 0 - - -, f 5;
-#X obj 923 207 r T_MR_FROM;
+#X obj 778 208 r T_EMPTY_ON_NEW;
+#X msg 778 254 28;
+#X obj 665 82 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X floatatom 106 201 5 0 0 0 - - -, f 5;
+#X obj 915 208 r T_MR_FROM;
 #X msg 915 254 29;
-#X obj 1027 211 r T_FORCE_RECORD;
-#X msg 1018 262 30;
-#X obj 1016 311 r T_FORCE_OD;
-#X msg 1022 349 34;
-#X obj 659 181 r T_PLAY_ALL;
+#X obj 1017 205 r T_FORCE_RECORD;
+#X msg 1018 254 30;
+#X obj 1022 310 r T_FORCE_OD;
+#X msg 1022 345 34;
+#X obj 631 176 r T_PLAY_ALL;
 #X connect 0 0 8 0;
 #X connect 0 0 44 0;
 #X connect 1 0 7 0;
@@ -478,13 +480,13 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X text 205 159 INDVIDUAL TRACKS;
 #N canvas 379 66 443 654 RECORD 0;
 #X obj 76 91 r RECORD;
-#X obj 62 234 s RECORD2;
+#X obj 30 186 s RECORD2;
 #X obj 78 152 t b b;
-#X obj 170 205 s focus;
-#X obj 183 160 expr ($f1 * 4) + $f2;
-#X obj 205 108 r L_TARGET;
-#X obj 192 134 f;
-#X obj 315 130 r T_TARGET;
+#X obj 110 268 s focus;
+#X obj 110 226 expr ($f1 * 4) + $f2;
+#X obj 128 121 r L_TARGET;
+#X obj 110 188 f;
+#X obj 247 121 r T_TARGET;
 #X connect 0 0 2 0;
 #X connect 2 0 1 0;
 #X connect 2 1 6 0;
@@ -493,60 +495,60 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X connect 6 0 4 0;
 #X connect 7 0 4 1;
 #X restore 71 21 pd RECORD;
-#N canvas 321 107 450 436 LOOP_COMMANDS 0;
+#N canvas 321 107 450 436 LOOP_COMMANDS 1;
 #N canvas 182 66 919 629 RECORDSTOP 0;
-#X obj 80 -59 r RECORD_STOP;
-#X obj 158 72 f;
-#X floatatom 117 273 5 0 0 0 - - -, f 5;
-#X floatatom 242 165 5 0 0 0 - - -, f 5;
-#X floatatom 229 354 5 0 0 0 - - -, f 5;
-#X floatatom 114 134 5 0 0 0 - - -, f 5;
-#X obj 228 407 s focus;
-#X obj 228 379 t b f;
-#X obj 239 218 s focus;
-#X obj 237 193 t b f;
-#X obj 100 333 s focus;
-#X obj 110 300 t b f;
-#X obj 107 181 s focus;
-#X obj 100 157 t b f;
-#X obj 169 440 s T_RECORD_STOP;
-#X obj 223 240 s T_RECORD_STOP;
-#X obj 88 375 s T_RECORD_STOP;
-#X obj 86 204 s T_RECORD_STOP;
-#X obj 197 53 r L_TARGET;
-#X obj 141 94 expr $f1 * 4;
-#X obj 114 246 expr $f1 +1;
-#X obj 249 137 expr $f1 +2;
-#X obj 230 317 expr $f1 +3;
-#X obj 143 -17 spigot;
-#X obj 222 6 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
-;
-#X obj 370 -8 spigot;
-#X obj 418 -37 r MRT;
-#X obj 487 63 f;
-#X floatatom 403 290 5 0 0 0 - - -, f 5;
-#X floatatom 528 182 5 0 0 0 - - -, f 5;
-#X floatatom 515 371 5 0 0 0 - - -, f 5;
-#X floatatom 400 151 5 0 0 0 - - -, f 5;
-#X obj 514 424 s focus;
-#X obj 514 396 t b f;
-#X obj 525 235 s focus;
-#X obj 523 210 t b f;
-#X obj 386 350 s focus;
-#X obj 396 317 t b f;
-#X obj 393 198 s focus;
-#X obj 386 174 t b f;
-#X obj 526 44 r L_TARGET;
-#X obj 470 85 expr $f1 * 4;
-#X obj 400 263 expr $f1 +1;
-#X obj 535 154 expr $f1 +2;
-#X obj 516 334 expr $f1 +3;
-#X obj 372 221 s T_MR_FROM;
-#X obj 509 257 s T_MR_FROM;
-#X obj 374 392 s T_MR_FROM;
-#X obj 455 457 s T_MR_FROM;
-#X text 380 492 change record to overdub;
-#X obj 186 -46 r ALLOW_STOPS;
+#X obj 384 -14 r RECORD_STOP;
+#X obj 126 103 f;
+#X floatatom 124 228 5 0 0 0 - - -, f 5;
+#X floatatom 245 229 5 0 0 0 - - -, f 5;
+#X floatatom 372 227 5 0 0 0 - - -, f 5;
+#X floatatom 0 227 5 0 0 0 - - -, f 5;
+#X obj 403 286 s focus;
+#X obj 371 252 t b f;
+#X obj 277 289 s focus;
+#X obj 245 258 t b f;
+#X obj 158 289 s focus;
+#X obj 124 257 t b f;
+#X obj 32 288 s focus;
+#X obj 0 256 t b f;
+#X obj 371 324 s T_RECORD_STOP;
+#X obj 246 323 s T_RECORD_STOP;
+#X obj 125 322 s T_RECORD_STOP;
+#X obj 0 321 s T_RECORD_STOP;
+#X obj 230 53 r L_TARGET;
+#X obj 125 137 expr $f1 * 4;
+#X obj 125 188 expr $f1 +1;
+#X obj 246 189 expr $f1 +2;
+#X obj 373 190 expr $f1 +3;
+#X obj 126 54 spigot;
+#X obj 190 57 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X obj 680 61 spigot;
+#X obj 719 -15 r MRT;
+#X obj 680 112 f;
+#X floatatom 680 232 5 0 0 0 - - -, f 5;
+#X floatatom 776 231 5 0 0 0 - - -, f 5;
+#X floatatom 882 232 5 0 0 0 - - -, f 5;
+#X floatatom 579 232 5 0 0 0 - - -, f 5;
+#X obj 913 292 s focus;
+#X obj 881 257 t b f;
+#X obj 808 291 s focus;
+#X obj 776 262 t b f;
+#X obj 705 289 s focus;
+#X obj 673 259 t b f;
+#X obj 611 289 s focus;
+#X obj 579 259 t b f;
+#X obj 743 56 r L_TARGET;
+#X obj 680 143 expr $f1 * 4;
+#X obj 680 191 expr $f1 +1;
+#X obj 776 193 expr $f1 +2;
+#X obj 883 195 expr $f1 +3;
+#X obj 578 322 s T_MR_FROM;
+#X obj 777 324 s T_MR_FROM;
+#X obj 673 323 s T_MR_FROM;
+#X obj 881 325 s T_MR_FROM;
+#X text 453 370 change record to overdub;
+#X obj 163 -13 r ALLOW_STOPS;
 #X connect 0 0 23 0;
 #X connect 0 0 25 0;
 #X connect 1 0 19 0;
@@ -659,51 +661,51 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X connect 26 0 14 0;
 #X restore 322 70 pd TRACKSTOPS;
 #N canvas 441 66 454 629 PLAYSTOPIF 0;
-#X obj 91 -78 f;
-#X obj 249 38 expr $f1 * 4;
-#X obj 154 -141 r PL;
-#X obj 120 -185 r L_TARGET;
-#X obj 120 -158 !=, f 2;
-#X obj 12 -277 r PLAY_STOP_IF;
-#X obj 300 132 s T_PLAY_STOP;
-#X obj 67 -199 t b b;
-#X obj 320 100 s focus;
-#X obj 248 190 f;
-#X obj 267 279 s focus;
-#X obj 215 221 expr ($f1 * 4) + $f2;
-#X obj 350 187 r T_TARGET;
-#X obj 273 163 r L_TARGET;
-#X obj 234 249 t b f;
-#X obj 244 310 s CHANGEFOCUS;
-#X obj 76 -249 spigot;
-#X obj 133 -246 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
-#X obj 129 140 r CFT;
-#X obj 76 171 spigot;
-#X obj 240 4 spigot;
-#X obj 291 -37 r CFT_INVERSE;
-#X obj 298 7 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
-;
-#X obj 130 179 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 256 70 t b b f;
-#X obj 121 -134 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
-#X obj 78 216 f;
-#X obj 79 250 s LOOP_FADE;
-#X obj 119 -276 r ALLOW_STOPS;
-#X obj 81 -116 spigot;
-#X obj 93 -26 spigot;
-#X obj 132 -55 r PL_PLAY;
-#X text 214 -180 PL != TL & playing?;
-#X obj 150 -20 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 156 195 r PL;
-#X obj 91 21 t b f;
-#X obj 30 -146 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-3;
-#X obj 206 121 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 86 88 f;
+#X obj 237 281 expr $f1 * 4;
+#X obj 255 -117 r PL;
+#X obj 158 -117 r L_TARGET;
+#X obj 123 -67 !=, f 2;
+#X obj 84 -214 r PLAY_STOP_IF;
+#X obj 261 379 s T_PLAY_STOP;
+#X obj 85 -118 t b b;
+#X obj 283 350 s focus;
+#X obj 236 433 f;
+#X obj 269 532 s focus;
+#X obj 237 467 expr ($f1 * 4) + $f2;
+#X obj 374 433 r T_TARGET;
+#X obj 254 406 r L_TARGET;
+#X obj 237 501 t b f;
+#X obj 237 564 s CHANGEFOCUS;
+#X obj 84 -162 spigot;
+#X obj 205 -183 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X obj 125 210 r CFT;
+#X obj 87 248 spigot;
+#X obj 237 250 spigot;
+#X obj 276 209 r CFT_INVERSE;
+#X obj 295 253 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X obj 141 256 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 237 317 t b b f;
+#X obj 149 -30 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 87 353 f;
+#X obj 89 565 s LOOP_FADE;
+#X obj 191 -213 r ALLOW_STOPS;
+#X obj 86 21 spigot;
+#X obj 86 137 spigot;
+#X obj 125 88 r PL_PLAY;
+#X text 216 -43 PL != TL & playing?;
+#X obj 155 139 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 105 311 r PL;
+#X obj 86 174 t b f;
+#X obj 31 -155 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 3;
+#X obj 213 362 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X connect 0 0 30 0;
 #X connect 1 0 24 0;
 #X connect 2 0 4 1;
@@ -816,8 +818,8 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X obj 559 171 f;
 #X obj 580 142 expr ($f2 * 4) + $f1;
 #X obj 524 52 t b;
-#X obj 533 131 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 533 131 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X floatatom 614 62 5 0 0 0 - - -, f 5;
 #X obj 623 9 r FADE_TIME;
 #X obj 553 204 t b f;
@@ -834,10 +836,10 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X obj 117 325 select 0 1 2 3;
 #X obj 183 430 select 0 1;
 #X obj 95 290 f;
-#X obj 142 265 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 14 339 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 142 265 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 14 339 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X floatatom 352 472 5 0 0 0 - - -, f 5;
 #X floatatom 76 387 5 0 0 0 - - -, f 5;
 #X obj 170 463 t b;
@@ -946,30 +948,30 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X connect 16 0 12 0;
 #X restore 302 147 pd FADE_OUT;
 #N canvas 494 66 713 654 FADE_IN 0;
-#X floatatom 112 33 5 0 0 0 - - -, f 5;
-#X floatatom 323 -151 5 0 0 0 - - -, f 5;
-#X floatatom 306 50 5 0 0 0 - - -, f 5;
-#X floatatom 154 -214 5 0 0 0 - - -, f 5;
-#X obj 319 105 s focus;
-#X obj 305 75 t b f;
-#X obj 364 -94 s focus;
-#X obj 318 -123 t b f;
-#X obj 134 99 s focus;
-#X obj 105 60 t b f;
-#X obj 177 -158 s focus;
-#X obj 140 -191 t b f;
-#X obj 181 -254 expr $f1 * 4;
-#X obj 109 6 expr $f1 +1;
-#X obj 330 -179 expr $f1 +2;
-#X obj 307 13 expr $f1 +3;
-#X obj 177 -286 r FADE_IN;
-#X obj 89 -110 s TRACK_FADE_IN;
-#X obj 304 -76 s TRACK_FADE_IN;
-#X obj 83 135 s TRACK_FADE_IN;
-#X obj 275 136 s TRACK_FADE_IN;
-#X obj 455 -202 r PLAY_ALL_T;
-#X obj 263 -192 spigot;
-#X obj 20 -40 print TRACK_FADE IN TO FOCUS;
+#X floatatom 234 -53 5 0 0 0 - - -, f 5;
+#X floatatom 367 -51 5 0 0 0 - - -, f 5;
+#X floatatom 521 -49 5 0 0 0 - - -, f 5;
+#X floatatom 87 -56 5 0 0 0 - - -, f 5;
+#X obj 553 15 s focus;
+#X obj 521 -14 t b f;
+#X obj 400 14 s focus;
+#X obj 367 -14 t b f;
+#X obj 265 16 s focus;
+#X obj 233 -14 t b f;
+#X obj 118 14 s focus;
+#X obj 87 -17 t b f;
+#X obj 87 -195 expr $f1 * 4;
+#X obj 234 -86 expr $f1 +1;
+#X obj 367 -84 expr $f1 +2;
+#X obj 521 -84 expr $f1 +3;
+#X obj 88 -228 r FADE_IN;
+#X obj 87 54 s TRACK_FADE_IN;
+#X obj 367 54 s TRACK_FADE_IN;
+#X obj 233 54 s TRACK_FADE_IN;
+#X obj 521 54 s TRACK_FADE_IN;
+#X obj 365 -210 r PLAY_ALL_T;
+#X obj 326 -143 spigot;
+#X obj 121 108 print TRACK_FADE IN TO FOCUS;
 #X connect 0 0 9 0;
 #X connect 1 0 7 0;
 #X connect 2 0 5 0;
@@ -995,28 +997,28 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X connect 22 0 13 0;
 #X restore 213 144 pd FADE_IN;
 #N canvas 520 135 557 537 EMPTY_ON_NEW 0;
-#X obj 158 44 f;
-#X floatatom 117 273 5 0 0 0 - - -, f 5;
-#X floatatom 242 165 5 0 0 0 - - -, f 5;
-#X floatatom 229 354 5 0 0 0 - - -, f 5;
-#X obj 228 407 s focus;
-#X obj 228 379 t b f;
-#X obj 239 218 s focus;
-#X obj 237 193 t b f;
-#X obj 100 333 s focus;
-#X obj 110 300 t b f;
-#X obj 179 14 r L_TARGET;
-#X obj 141 94 expr $f1 * 4;
-#X obj 114 246 expr $f1 +1;
-#X obj 249 137 expr $f1 +2;
-#X obj 230 317 expr $f1 +3;
-#X obj 31 -46 r EMPTY_ON_NEW;
-#X obj 221 241 s T_EMPTY_ON_NEW;
-#X obj 88 375 s T_EMPTY_ON_NEW;
-#X obj 169 440 s T_EMPTY_ON_NEW;
-#X obj 48 192 s focus;
-#X obj 106 132 t b f f;
-#X obj 27 77 s CHANGEFOCUS;
+#X obj 100 96 f;
+#X floatatom 191 322 5 0 0 0 - - -, f 5;
+#X floatatom 319 323 5 0 0 0 - - -, f 5;
+#X floatatom 453 324 5 0 0 0 - - -, f 5;
+#X obj 486 386 s focus;
+#X obj 453 355 t b f;
+#X obj 351 383 s focus;
+#X obj 319 353 t b f;
+#X obj 223 383 s focus;
+#X obj 191 350 t b f;
+#X obj 118 62 r L_TARGET;
+#X obj 100 141 expr $f1 * 4;
+#X obj 191 289 expr $f1 +1;
+#X obj 318 290 expr $f1 +2;
+#X obj 453 290 expr $f1 +3;
+#X obj 100 33 r EMPTY_ON_NEW;
+#X obj 319 414 s T_EMPTY_ON_NEW;
+#X obj 192 413 s T_EMPTY_ON_NEW;
+#X obj 453 415 s T_EMPTY_ON_NEW;
+#X obj 124 288 s focus;
+#X obj 101 184 t b f f;
+#X obj 17 289 s CHANGEFOCUS;
 #X connect 0 0 11 0;
 #X connect 1 0 9 0;
 #X connect 2 0 7 0;
@@ -1064,10 +1066,10 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X obj 245 242 s T_PLAY_ALL;
 #X obj 193 441 s T_PLAY_ALL;
 #X obj 112 376 s T_PLAY_ALL;
-#X obj 169 71 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 32 240 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 169 71 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 32 240 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X connect 0 0 19 0;
 #X connect 1 0 12 0;
 #X connect 2 0 10 0;
@@ -1097,54 +1099,54 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X text 38 10 RECORDING;
 #X text 179 6 PLAYING;
 #X text 307 13 STOPPING;
-#N canvas 31 33 1121 654 AUTO 0;
-#X obj 382 27 r L_AUTO_PLAY;
-#X obj 30 25 r L_FORCE_RECORD;
-#X obj 217 29 r L_FORCE_OD;
-#X obj 552 187 s CHANGEFOCUS;
-#X obj 39 92 spigot;
-#X obj 208 95 spigot;
-#X obj 381 105 spigot;
-#X obj 74 67 r AutoPT;
-#X obj 246 70 r AutoPT;
-#X obj 419 80 r AutoPT;
-#X obj 609 60 r AutoPT;
-#X obj 607 97 select 0;
-#X obj 543 146 spigot;
-#X msg 598 119 1;
-#X msg 630 123 0;
-#X obj 43 166 s T_FORCE_RECORD;
-#X obj 200 172 s T_FORCE_OD;
-#X obj 356 416 s T_PLAY_START;
-#X obj 377 385 spigot;
-#X obj 469 332 r CFT_INVERSE;
-#X obj 517 430 f;
-#X obj 544 397 r L_TARGET;
-#X obj 473 374 spigot;
-#X obj 526 354 r CFT;
-#X obj 495 464 s FADE_IN;
-#X obj 382 252 t b b;
-#X obj 744 337 spigot;
-#X obj 782 309 r CFT_INVERSE;
-#X obj 886 334 spigot;
-#X obj 935 309 r CFT;
-#X obj 804 -5 r L_TARGET;
-#X obj 858 28 r PL;
-#X obj 799 36 !=;
-#X obj 894 426 s FADE_OUT;
-#X obj 893 377 f;
-#X obj 746 381 expr $f2 * 4;
-#X obj 744 470 s T_PLAY_STOP;
-#X obj 750 413 t b f;
-#X obj 785 444 s focus;
-#X obj 782 139 spigot;
-#X obj 784 70 select 1;
-#X obj 760 237 t b b;
-#X obj 822 105 r AUTO_STOP;
-#X obj 737 107 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 721 194 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#N canvas 31 38 1121 654 AUTO 0;
+#X obj 306 30 r L_AUTO_PLAY;
+#X obj 39 30 r L_FORCE_RECORD;
+#X obj 184 31 r L_FORCE_OD;
+#X obj 545 523 s CHANGEFOCUS;
+#X obj 39 444 spigot;
+#X obj 183 448 spigot;
+#X obj 306 218 spigot;
+#X obj 78 407 r AutoPT;
+#X obj 222 409 r AutoPT;
+#X obj 345 178 r AutoPT;
+#X obj 582 321 r AutoPT;
+#X obj 583 374 select 0;
+#X obj 544 451 spigot;
+#X msg 583 412 1;
+#X msg 636 411 0;
+#X obj 38 520 s T_FORCE_RECORD;
+#X obj 183 520 s T_FORCE_OD;
+#X obj 307 523 s T_PLAY_START;
+#X obj 306 448 spigot;
+#X obj 345 413 r CFT_INVERSE;
+#X obj 455 488 f;
+#X obj 474 320 r L_TARGET;
+#X obj 455 451 spigot;
+#X obj 494 353 r CFT;
+#X obj 455 522 s FADE_IN;
+#X obj 306 255 t b b;
+#X obj 713 381 spigot;
+#X obj 752 324 r CFT_INVERSE;
+#X obj 836 381 spigot;
+#X obj 875 325 r CFT;
+#X obj 713 31 r L_TARGET;
+#X obj 850 63 r PL;
+#X obj 713 113 !=;
+#X obj 839 527 s FADE_OUT;
+#X obj 838 494 f;
+#X obj 714 425 expr $f2 * 4;
+#X obj 716 527 s T_PLAY_STOP;
+#X obj 715 469 t b f;
+#X obj 747 500 s focus;
+#X obj 713 218 spigot;
+#X obj 713 149 select 1;
+#X obj 713 280 t b b;
+#X obj 751 184 r AUTO_STOP;
+#X obj 666 186 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 664 239 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X connect 0 0 6 0;
 #X connect 0 0 12 0;
 #X connect 1 0 4 0;
@@ -1266,32 +1268,32 @@ focus 0 \; L_TARGET 0 \; T_TARGET 0 \; PL 0 \; trackswitch 0 \; loopswitch
 #X connect 29 0 14 1;
 #X restore 166 56 pd loopchange;
 #N canvas 375 66 726 654 trackswitch 0;
-#X obj 127 359 select 1 2;
-#X obj 187 204 f;
-#X obj 279 231 s focus;
-#X obj 143 328 f;
-#X obj 173 291 r changelight;
-#X obj 56 453 select RECORD CHANGE;
-#X msg 94 394 RECORD;
-#X msg 159 395 CHANGE;
-#X obj 72 425 list;
-#X obj 99 164 t b b b b;
-#X obj 129 258 s CHANGE_FROM;
-#X obj 172 491 s CHANGE_TO;
-#X obj 45 489 s CHANGE_RECORD;
-#X obj 264 259 s FOCUS_CHANGE;
+#X obj 255 326 select 1 2;
+#X obj 108 287 f;
+#X obj 140 355 s focus;
+#X obj 255 289 f;
+#X obj 273 255 r changelight;
+#X obj 87 567 select RECORD CHANGE;
+#X msg 253 402 RECORD;
+#X msg 322 402 CHANGE;
+#X obj 87 537 list;
+#X obj 88 253 t b b b b;
+#X obj 146 288 s CHANGE_FROM;
+#X obj 206 616 s CHANGE_TO;
+#X obj 87 616 s CHANGE_RECORD;
+#X obj 109 405 s FOCUS_CHANGE;
 #X text 342 26 what happens when you press the track button?;
 #X text 346 49 this handles telling one track to be unselected;
 #X text 360 73 and the target to get selected;
-#X obj 185 143 f;
-#X obj 239 127 r L_TARGET;
-#X obj 211 171 expr ($f1 * 4) + $f2;
-#X text 341 110 Only 1 track at a time can record \, so that's why
-this has to give commands to multiple tracks...;
-#X obj 150 105 t b b f f;
-#X obj 241 88 s T_TARGET;
-#X obj 87 21 r trackswitch;
-#X obj 237 210 t b f;
+#X obj 108 181 f;
+#X obj 126 152 r L_TARGET;
+#X obj 108 215 expr ($f1 * 4) + $f2;
+#X text 342 91 Only 1 track at a time can record \, so that's why this
+has to give commands to multiple tracks...;
+#X obj 87 53 t b b f f;
+#X obj 234 153 s T_TARGET;
+#X obj 87 12 r trackswitch;
+#X obj 108 323 t b f;
 #X connect 0 0 6 0;
 #X connect 0 1 6 0;
 #X connect 0 2 7 0;
@@ -1318,8 +1320,8 @@ this has to give commands to multiple tracks...;
 #X connect 24 0 13 0;
 #X connect 24 1 2 0;
 #X restore 315 52 pd trackswitch;
-#N canvas 389 66 824 629 LOOP_CONTROLLER 0;
-#X obj 359 26 r TRACK_STATE;
+#N canvas 389 66 1047 629 LOOP_CONTROLLER 0;
+#X obj 278 28 r TRACK_STATE;
 #X floatatom 10 161 5 0 0 0 - - -, f 5;
 #X floatatom 56 162 5 0 0 0 - - -, f 5;
 #X floatatom 98 163 5 0 0 0 - - -, f 5;
@@ -1327,12 +1329,12 @@ this has to give commands to multiple tracks...;
 #X obj 278 78 route 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15;
 #X obj 3 205 select 1;
 #X obj 72 205 select 2;
-#X msg 20 232 1;
-#X msg 92 230 2;
-#X floatatom 51 282 5 0 0 0 - - 1-LS, f 5;
+#X msg 3 235 1;
+#X msg 72 235 2;
+#X floatatom 71 274 5 0 0 0 - - 1-LS, f 5;
 #X obj 147 206 select 3;
-#X obj 19 103 t b;
-#X msg 145 240 3;
+#X obj 11 109 t b;
+#X msg 147 236 3;
 #X floatatom 221 165 5 0 0 0 - - -, f 5;
 #X floatatom 269 164 5 0 0 0 - - -, f 5;
 #X floatatom 311 165 5 0 0 0 - - -, f 5;
@@ -1369,9 +1371,9 @@ this has to give commands to multiple tracks...;
 #X obj 771 222 select 3;
 #X obj 739 81 t b;
 #X msg 778 255 3;
-#X obj 31 46 r loopcheck;
+#X obj 36 41 r loopcheck;
 #X obj 36 72 route 0 1;
-#X obj 685 22 r loopcheck;
+#X obj 690 20 r loopcheck;
 #X obj 690 48 route 2 3;
 #X floatatom 45 345 5 0 0 0 - - RL, f 5;
 #X floatatom 98 346 5 0 0 0 - - PL, f 5;
@@ -1380,7 +1382,7 @@ this has to give commands to multiple tracks...;
 #X msg 117 308 0;
 #X floatatom 255 343 5 0 0 0 - - RL, f 5;
 #X floatatom 321 345 5 0 0 0 - - PL, f 5;
-#X msg 231 310 1;
+#X msg 235 309 1;
 #X msg 278 309 1;
 #X msg 334 310 1;
 #X floatatom 464 345 5 0 0 0 - - RL, f 5;
@@ -1396,7 +1398,7 @@ this has to give commands to multiple tracks...;
 #X obj 9 369 select 0 4;
 #X msg 6 404 0;
 #X msg 45 406 1;
-#X msg 77 410 4;
+#X msg 85 405 4;
 #X obj 123 459 s PLAY_STOP_IF;
 #X obj 124 374 select 3;
 #X obj 362 377 select 3;
@@ -1418,13 +1420,13 @@ this has to give commands to multiple tracks...;
 #X msg 675 431 1;
 #X msg 710 432 4;
 #X obj 19 439 s 0-RUN;
-#X obj 270 450 s 1-RUN;
+#X obj 257 451 s 1-RUN;
 #X obj 456 451 s 2-RUN;
 #X obj 649 464 s 3-RUN;
 #X text 139 344 PL;
-#X obj 122 110 s TSO1;
-#X obj 174 111 s TSO2;
-#X obj 225 112 s TSO3;
+#X obj 105 110 s TSO1;
+#X obj 160 111 s TSO2;
+#X obj 214 111 s TSO3;
 #X obj 227 138 s TSO4;
 #X obj 285 138 s TSO5;
 #X obj 337 139 s TSO6;
@@ -1439,14 +1441,14 @@ this has to give commands to multiple tracks...;
 #X obj 658 109 s TSO13;
 #X obj 124 419 t b b b, f 9;
 #X text 122 529 I think this is where a play 1+ would go;
-#X obj 116 502 s L_PLAY_ALL;
+#X obj 184 506 s L_PLAY_ALL;
 #X obj 369 415 t b b b;
-#X obj 362 503 s L_PLAY_ALL;
-#X obj 527 506 s L_PLAY_ALL;
+#X obj 415 506 s L_PLAY_ALL;
+#X obj 606 506 s L_PLAY_ALL;
 #X obj 559 420 t b b b;
-#X obj 703 507 s L_PLAY_ALL;
+#X obj 800 506 s L_PLAY_ALL;
 #X obj 753 428 t b b b;
-#X obj 64 110 s TSO0;
+#X obj 49 109 s TSO0;
 #X connect 0 0 5 0;
 #X connect 1 0 6 0;
 #X connect 1 0 7 0;
@@ -1677,14 +1679,14 @@ this has to give commands to multiple tracks...;
 #X obj 423 -95 t b b f;
 #X obj 506 -97 t b b f, f 9;
 #X obj 604 -97 t b b f;
-#X obj 102 167 vsl 15 128 0.01 1 1 1 M0 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 127 168 vsl 15 128 0.01 1 1 1 M1 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 151 168 vsl 15 128 0.01 1 1 1 M2 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 177 169 vsl 15 128 0.01 1 1 1 M3 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+#X obj 102 167 vsl 15 128 0.01 1 1 1 M0 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 127 168 vsl 15 128 0.01 1 1 1 M1 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 151 168 vsl 15 128 0.01 1 1 1 M2 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 177 169 vsl 15 128 0.01 1 1 1 M3 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
 #X obj 78 320 f;
 #X obj 106 321 f;
 #X obj 136 321 f;
@@ -1697,14 +1699,14 @@ this has to give commands to multiple tracks...;
 #X obj 11 210 r L_TARGET;
 #X obj 13 241 select 0;
 #X obj 318 142 route 0 1 2 3;
-#X obj 316 176 vsl 15 128 0.01 1 1 1 M4 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 341 177 vsl 15 128 0.01 1 1 1 M5 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 365 177 vsl 15 128 0.01 1 1 1 M6 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 391 178 vsl 15 128 0.01 1 1 1 M7 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+#X obj 316 176 vsl 15 128 0.01 1 1 1 M4 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 341 177 vsl 15 128 0.01 1 1 1 M5 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 365 177 vsl 15 128 0.01 1 1 1 M6 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 391 178 vsl 15 128 0.01 1 1 1 M7 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
 #X obj 292 329 f;
 #X obj 320 330 f;
 #X obj 350 330 f;
@@ -1716,14 +1718,14 @@ this has to give commands to multiple tracks...;
 #X floatatom 398 363 5 0 0 0 - - MIN3, f 5;
 #X obj 227 222 r L_TARGET;
 #X obj 534 133 route 0 1 2 3;
-#X obj 532 167 vsl 15 128 0.01 1 1 1 M8 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 557 168 vsl 15 128 0.01 1 1 1 M9 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 581 168 vsl 15 128 0.01 1 1 1 M10 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 607 169 vsl 15 128 0.01 1 1 1 M11 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+#X obj 532 167 vsl 15 128 0.01 1 1 1 M8 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 557 168 vsl 15 128 0.01 1 1 1 M9 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 581 168 vsl 15 128 0.01 1 1 1 M10 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 607 169 vsl 15 128 0.01 1 1 1 M11 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
 #X obj 508 320 f;
 #X obj 536 321 f;
 #X obj 566 321 f;
@@ -1735,14 +1737,14 @@ this has to give commands to multiple tracks...;
 #X floatatom 614 354 5 0 0 0 - - MIN3, f 5;
 #X obj 443 213 r L_TARGET;
 #X obj 758 126 route 0 1 2 3;
-#X obj 756 160 vsl 15 128 0.01 1 1 1 M12 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 781 161 vsl 15 128 0.01 1 1 1 M13 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 805 161 vsl 15 128 0.01 1 1 1 M14 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
-#X obj 831 162 vsl 15 128 0.01 1 1 1 M15 empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+#X obj 756 160 vsl 15 128 0.01 1 1 1 M12 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 781 161 vsl 15 128 0.01 1 1 1 M13 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 805 161 vsl 15 128 0.01 1 1 1 M14 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
+#X obj 831 162 vsl 15 128 0.01 1 1 1 M15 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
 #X obj 732 313 f;
 #X obj 760 314 f;
 #X obj 790 314 f;
@@ -1961,14 +1963,14 @@ this has to give commands to multiple tracks...;
 #X obj 457 -665 t b b f;
 #X obj 540 -667 t b b f, f 9;
 #X obj 638 -667 t b b f;
-#X obj 136 -403 vsl 15 128 0.01 1 1 1 P0 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 161 -402 vsl 15 128 0.01 1 1 1 P1 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 185 -402 vsl 15 128 0.01 1 1 1 P2 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 211 -401 vsl 15 128 0.01 1 1 1 P3 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
+#X obj 136 -403 vsl 15 128 0.01 1 1 1 P0 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 161 -402 vsl 15 128 0.01 1 1 1 P1 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 185 -402 vsl 15 128 0.01 1 1 1 P2 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 211 -401 vsl 15 128 0.01 1 1 1 P3 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
 #X obj 112 -250 f;
 #X obj 140 -249 f;
 #X obj 170 -249 f;
@@ -1981,14 +1983,14 @@ this has to give commands to multiple tracks...;
 #X obj 45 -360 r L_TARGET;
 #X obj 47 -329 select 0;
 #X obj 352 -428 route 0 1 2 3;
-#X obj 350 -394 vsl 15 128 0.01 1 1 1 P4 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 375 -393 vsl 15 128 0.01 1 1 1 P5 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 399 -393 vsl 15 128 0.01 1 1 1 P6 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 425 -392 vsl 15 128 0.01 1 1 1 P7 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
+#X obj 350 -394 vsl 15 128 0.01 1 1 1 P4 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 375 -393 vsl 15 128 0.01 1 1 1 P5 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 399 -393 vsl 15 128 0.01 1 1 1 P6 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 425 -392 vsl 15 128 0.01 1 1 1 P7 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
 #X obj 326 -241 f;
 #X obj 354 -240 f;
 #X obj 384 -240 f;
@@ -2000,14 +2002,14 @@ this has to give commands to multiple tracks...;
 #X floatatom 432 -207 5 0 0 0 - - PIN3, f 5;
 #X obj 261 -348 r L_TARGET;
 #X obj 568 -437 route 0 1 2 3;
-#X obj 566 -403 vsl 15 128 0.01 1 1 1 P8 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 591 -402 vsl 15 128 0.01 1 1 1 P9 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 615 -402 vsl 15 128 0.01 1 1 1 P10 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
-#X obj 641 -401 vsl 15 128 0.01 1 1 1 P11 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
+#X obj 566 -403 vsl 15 128 0.01 1 1 1 P8 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 591 -402 vsl 15 128 0.01 1 1 1 P9 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 615 -402 vsl 15 128 0.01 1 1 1 P10 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
+#X obj 641 -401 vsl 15 128 0.01 1 1 1 P11 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
 #X obj 542 -250 f;
 #X obj 570 -249 f;
 #X obj 600 -249 f;
@@ -2019,14 +2021,14 @@ this has to give commands to multiple tracks...;
 #X floatatom 648 -216 5 0 0 0 - - PIN3, f 5;
 #X obj 477 -357 r L_TARGET;
 #X obj 792 -444 route 0 1 2 3;
-#X obj 790 -410 vsl 15 128 0.01 1 0 1 P12 empty empty 0 -9 0 10 -262144
--1 -1 6286 1;
-#X obj 815 -409 vsl 15 128 0.01 1 0 1 P13 empty empty 0 -9 0 10 -262144
--1 -1 6286 1;
-#X obj 839 -409 vsl 15 128 0.01 1 0 1 P14 empty empty 0 -9 0 10 -262144
--1 -1 6286 1;
-#X obj 865 -408 vsl 15 128 0.01 1 1 1 P15 empty empty 0 -9 0 10 -262144
--1 -1 10788 1;
+#X obj 790 -410 vsl 15 128 0.01 1 0 1 P12 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 6286 1;
+#X obj 815 -409 vsl 15 128 0.01 1 0 1 P13 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 6286 1;
+#X obj 839 -409 vsl 15 128 0.01 1 0 1 P14 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 6286 1;
+#X obj 865 -408 vsl 15 128 0.01 1 1 1 P15 empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 10788 1;
 #X obj 766 -257 f;
 #X obj 794 -256 f;
 #X obj 824 -256 f;
@@ -2227,7 +2229,7 @@ this has to give commands to multiple tracks...;
 #X connect 98 0 66 0;
 #X connect 98 0 71 0;
 #X restore 172 62 pd pans;
-#N canvas 0 0 450 300 locks 0;
+#N canvas 0 22 450 300 locks 0;
 #X restore 70 97 pd locks;
 #N canvas 19 96 764 517 state_displays 0;
 #X floatatom 58 205 5 0 0 0 - - TSI0, f 5;
@@ -2237,8 +2239,8 @@ this has to give commands to multiple tracks...;
 #X obj 28 172 spigot 0;
 #X obj 102 171 spigot 0;
 #X obj 173 172 spigot 0;
-#X obj 283 130 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 283 130 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X obj 286 60 select 0;
 #X msg 283 91 1;
 #X msg 323 92 0;
@@ -2260,8 +2262,8 @@ this has to give commands to multiple tracks...;
 #X obj 386 164 spigot 0;
 #X obj 460 163 spigot 0;
 #X obj 531 164 spigot 0;
-#X obj 641 122 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 641 122 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X msg 641 83 1;
 #X msg 681 84 0;
 #X floatatom 398 50 5 0 0 0 - TSO4 -, f 5;
@@ -2282,8 +2284,8 @@ this has to give commands to multiple tracks...;
 #X obj 24 421 spigot 0;
 #X obj 98 420 spigot 0;
 #X obj 169 421 spigot 0;
-#X obj 279 379 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 279 379 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X msg 279 340 1;
 #X msg 319 341 0;
 #X floatatom 36 307 5 0 0 0 - TSO8 -, f 5;
@@ -2304,8 +2306,8 @@ this has to give commands to multiple tracks...;
 #X obj 382 413 spigot 0;
 #X obj 456 412 spigot 0;
 #X obj 527 413 spigot 0;
-#X obj 637 371 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 637 371 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X msg 637 332 1;
 #X msg 677 333 0;
 #X floatatom 394 299 5 0 0 0 - TSO12 -, f 5;
@@ -2480,59 +2482,59 @@ this has to give commands to multiple tracks...;
 #X text 402 566 volume;
 #X obj 397 535 outlet;
 #X obj 17 133 spigot 1;
-#X obj 69 102 tgl 15 1 empty 0-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 69 102 tgl 15 1 empty 0-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 19 177 spigot 1;
-#X obj 72 157 tgl 15 1 empty 0-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 72 157 tgl 15 1 empty 0-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 102 128 spigot 1;
-#X obj 155 106 tgl 15 1 empty 1-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 155 106 tgl 15 1 empty 1-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 107 186 spigot 1;
-#X obj 158 167 tgl 15 1 empty 1-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 158 167 tgl 15 1 empty 1-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 197 143 spigot 1;
-#X obj 250 116 tgl 15 1 empty 2-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 250 116 tgl 15 1 empty 2-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 196 192 spigot 1;
-#X obj 245 166 tgl 17 1 empty 2-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 245 166 tgl 17 1 empty 2-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 280 158 spigot 1;
-#X obj 324 125 tgl 15 1 empty 3-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 324 125 tgl 15 1 empty 3-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 278 205 spigot 1;
-#X obj 333 187 tgl 15 1 empty 3-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 333 187 tgl 15 1 empty 3-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 532 136 spigot 1;
-#X obj 584 105 tgl 15 1 empty 4-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 584 105 tgl 15 1 empty 4-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 542 194 spigot 1;
-#X obj 596 165 tgl 15 1 empty 4-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 596 165 tgl 15 1 empty 4-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 625 141 spigot 1;
-#X obj 669 110 tgl 15 1 empty 5-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 669 110 tgl 15 1 empty 5-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 635 199 spigot 1;
-#X obj 681 170 tgl 15 1 empty 5-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 681 170 tgl 15 1 empty 5-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 709 139 spigot 1;
-#X obj 761 108 tgl 15 1 empty 6-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 761 108 tgl 15 1 empty 6-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 719 197 spigot 1;
-#X obj 773 168 tgl 15 1 empty 6-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 773 168 tgl 15 1 empty 6-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 814 132 spigot 1;
-#X obj 866 101 tgl 15 1 empty 7-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 866 101 tgl 15 1 empty 7-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 826 192 spigot 1;
-#X obj 878 161 tgl 15 1 empty 7-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 878 161 tgl 15 1 empty 7-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 245 355 spigot 1;
-#X obj 297 324 tgl 15 1 empty 8-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 297 324 tgl 15 1 empty 8-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 257 415 spigot 1;
-#X obj 309 384 tgl 15 1 empty 8-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 309 384 tgl 15 1 empty 8-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X floatatom 325 242 5 0 0 0 - M9 -, f 5;
 #X obj 327 271 t b;
 #X floatatom 418 244 5 0 0 0 - M10 -, f 5;
@@ -2548,47 +2550,47 @@ this has to give commands to multiple tracks...;
 #X floatatom 938 260 5 0 0 0 - M15 -, f 5;
 #X obj 940 289 t b;
 #X obj 331 359 spigot 1;
-#X obj 383 328 tgl 15 1 empty 0-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 383 328 tgl 15 1 empty 0-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 333 403 spigot 1;
-#X obj 386 383 tgl 15 1 empty 0-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 386 383 tgl 15 1 empty 0-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 416 354 spigot 1;
-#X obj 469 332 tgl 15 1 empty 1-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 469 332 tgl 15 1 empty 1-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 421 412 spigot 1;
-#X obj 472 393 tgl 15 1 empty 1-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 472 393 tgl 15 1 empty 1-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 511 369 spigot 1;
-#X obj 564 342 tgl 15 1 empty 2-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 564 342 tgl 15 1 empty 2-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 510 418 spigot 1;
-#X obj 559 392 tgl 17 1 empty 2-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 559 392 tgl 17 1 empty 2-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 670 397 spigot 1;
-#X obj 717 361 tgl 15 1 empty 3-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 717 361 tgl 15 1 empty 3-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 683 435 spigot 1;
-#X obj 726 423 tgl 15 1 empty 3-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 726 423 tgl 15 1 empty 3-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 746 383 spigot 1;
-#X obj 798 352 tgl 15 1 empty 4-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 798 352 tgl 15 1 empty 4-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 756 441 spigot 1;
-#X obj 810 412 tgl 15 1 empty 4-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 810 412 tgl 15 1 empty 4-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 839 388 spigot 1;
-#X obj 883 357 tgl 15 1 empty 5-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 883 357 tgl 15 1 empty 5-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 849 446 spigot 1;
-#X obj 895 417 tgl 15 1 empty 5-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 895 417 tgl 15 1 empty 5-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 923 386 spigot 1;
-#X obj 975 355 tgl 15 1 empty 6-flockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 975 355 tgl 15 1 empty 6-flockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 933 444 spigot 1;
-#X obj 987 415 tgl 15 1 empty 6-vlockB empty 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 987 415 tgl 15 1 empty 6-vlockB empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 329 304 pack 9 f;
 #X obj 420 302 pack 10 f;
 #X obj 519 310 pack 11 f;
@@ -2896,25 +2898,25 @@ this has to give commands to multiple tracks...;
 #X connect 7 1 2 0;
 #X connect 8 0 1 0;
 #X restore 193 230 pd MIXER;
-#N canvas 477 234 450 325 LOOP_TIMING 0;
-#X obj 10 8 r MB;
-#X obj 42 36 route 0 4 8 12;
-#X obj -2 103 s 1-MB;
-#X obj 50 102 s 2-MB;
-#X obj 100 105 s 3-MB;
-#X obj 183 109 s 5-MB;
-#X obj 229 110 s 6-MB;
-#X obj 280 107 s 7-MB;
-#X msg 98 13 0;
-#X msg 137 11 4;
-#X obj 44 169 s 9-MB;
-#X obj 94 168 s 10-MB;
-#X obj 146 171 s 11-MB;
-#X obj 221 175 s 13-MB;
-#X obj 267 176 s 14-MB;
-#X obj 318 175 s 15-MB;
-#X obj 6 164 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
-;
+#N canvas 477 234 863 325 LOOP_TIMING 0;
+#X obj 316 12 r MB;
+#X obj 316 63 route 0 4 8 12;
+#X obj 13 125 s 1-MB;
+#X obj 70 126 s 2-MB;
+#X obj 127 126 s 3-MB;
+#X obj 206 126 s 5-MB;
+#X obj 259 126 s 6-MB;
+#X obj 312 126 s 7-MB;
+#X msg 364 13 0;
+#X msg 411 13 4;
+#X obj 385 125 s 9-MB;
+#X obj 435 124 s 10-MB;
+#X obj 495 124 s 11-MB;
+#X obj 579 123 s 13-MB;
+#X obj 640 123 s 14-MB;
+#X obj 695 123 s 15-MB;
+#X obj 316 181 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;
@@ -2935,13 +2937,13 @@ this has to give commands to multiple tracks...;
 #N canvas 327 66 833 581 AUDIO_SETUP 0;
 #X text 392 89 loop 1-8 output;
 #X text 185 491 main out;
-#X obj 115 133 vsl 16 95 0.01 1 1 1 mic_vol empty IN 0 -9 0 10 -262144
--1 -1 9400 1;
-#X obj 250 125 vsl 16 98 0.01 1 1 1 mon_vol empty MON 0 -9 0 10 -262144
--1 -1 7500 1;
+#X obj 115 133 vsl 16 95 0.01 1 1 1 mic_vol empty IN 0 -9 0 10 #fcfcfc
+#000000 #000000 9400 1;
+#X obj 250 125 vsl 16 98 0.01 1 1 1 mon_vol empty MON 0 -9 0 10 #fcfcfc
+#000000 #000000 7500 1;
 #X obj 355 436 s~ record_l;
 #X obj 463 436 s~ record_r;
-#X obj 398 140 cnv 15 100 60 empty empty empty 20 12 0 14 -233017 -66577
+#X obj 398 140 cnv 15 100 60 empty empty empty 20 12 0 14 #e0e0e0 #404040
 0;
 #X obj 58 442 s~ mic;
 #X text 55 469 to loops;
@@ -2949,8 +2951,8 @@ this has to give commands to multiple tracks...;
 #X text 380 464 out to live record;
 #X text 310 201 (open "pd MIXER" on MAIN_CODE canvas);
 #N canvas 6 133 455 535 L_IN 0;
-#X obj 146 5 vsl 15 128 0 1 0 1 empty mic_vol empty 0 -9 0 10 -262144
--1 -1 12700 1;
+#X obj 146 5 vsl 15 128 0 1 0 1 empty mic_vol empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
 #X obj 137 204 line~;
 #X obj 145 160 pack 0 5;
 #X obj 36 114 *~;
@@ -2970,8 +2972,8 @@ this has to give commands to multiple tracks...;
 #X connect 8 0 9 0;
 #X connect 9 0 3 0;
 #X restore 105 272 pd L_IN;
-#X obj 249 236 tgl 20 0 empty mon empty 17 7 0 10 -262144 -1 -1 0 1
-;
+#X obj 249 236 tgl 20 0 empty mon empty 17 7 0 10 #fcfcfc #000000 #000000
+1 1;
 #X text 176 19 AUDIO IN;
 #X obj 165 441 dac~ 2;
 #X obj 229 440 dac~ 1;
@@ -2980,8 +2982,8 @@ this has to give commands to multiple tracks...;
 #X obj 360 265 catch~ L;
 #X obj 449 265 catch~ R;
 #N canvas 50 99 703 596 MON 0;
-#X obj 158 12 vsl 15 128 0 1 0 1 empty mon_vol empty 0 -9 0 10 -262144
--1 -1 4469 1;
+#X obj 158 12 vsl 15 128 0 1 0 1 empty mon_vol empty 0 -9 0 10 #fcfcfc
+#000000 #000000 4469 1;
 #X obj 177 198 line~;
 #X obj 77 355 *~;
 #X text 80 9 monitor;
@@ -3010,13 +3012,13 @@ this has to give commands to multiple tracks...;
 #X connect 12 0 13 0;
 #X connect 13 0 2 0;
 #X restore 242 274 pd MON;
-#X obj 606 132 vsl 16 95 0.01 1 1 1 aux_vol empty IN 0 -9 0 10 -262144
--1 -1 9400 1;
-#X obj 605 242 tgl 20 0 empty aux empty 17 7 0 10 -262144 -1 -1 0 1
-;
+#X obj 606 132 vsl 16 95 0.01 1 1 1 aux_vol empty IN 0 -9 0 10 #fcfcfc
+#000000 #000000 9400 1;
+#X obj 605 242 tgl 20 0 empty aux empty 17 7 0 10 #fcfcfc #000000 #000000
+0 1;
 #N canvas 456 135 455 560 R_IN 0;
-#X obj 166 7 vsl 15 128 0 1 0 1 empty aux_vol empty 0 -9 0 10 -262144
--1 -1 12700 1;
+#X obj 166 7 vsl 15 128 0 1 0 1 empty aux_vol empty 0 -9 0 10 #fcfcfc
+#000000 #000000 12700 1;
 #X obj 157 206 line~;
 #X obj 129 166 pack 0 5;
 #X obj 87 366 *~;
@@ -3069,8 +3071,8 @@ this has to give commands to multiple tracks...;
 #X connect 24 0 16 0;
 #X restore 255 445 pd AUDIO_SETUP;
 #N canvas 447 162 646 533 LATENCY_COMPENSATION 0;
-#X obj 79 65 vsl 28 126 1 1000 1 1 LATCOMP empty empty 0 -9 0 10 -262144
--1 -1 5650 1;
+#X obj 79 65 vsl 28 126 1 1000 1 1 LATCOMP empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 5650 1;
 #X floatatom 19 288 5 0 0 0 - - -, f 5;
 #X obj 118 77 loadbang;
 #X text 36 29 LATENCY COMPENSATION;
@@ -3080,7 +3082,7 @@ this has to give commands to multiple tracks...;
 #X msg 122 105 2000;
 #X obj 122 129 t b f;
 #X obj 252 53 vsl 28 126 1 1000 1 1 LATCATCHUP empty empty 0 -9 0 10
--262144 -1 -1 2450 1;
+#fcfcfc #000000 #000000 2450 1;
 #X obj 306 59 loadbang;
 #X obj 305 36 r CLEAR;
 #X obj 299 136 delay 2000;
@@ -3124,57 +3126,57 @@ ramp on and off to avoid CLICKS.;
 #X connect 22 0 1 0;
 #X restore 253 518 pd LATENCY_COMPENSATION;
 #X text 256 385 MORE CODE;
-#N canvas 484 160 450 350 TRACK 0;
-#X obj 95 174 f;
-#X obj 21 286 t b;
-#X obj 25 314 f;
-#X obj 58 260 select 1;
-#X obj 248 371 f;
-#X obj 242 480 t b;
-#X obj 247 398 t f f;
-#X obj 217 449 select 1;
-#X obj 282 518 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
-#X obj 238 311 t b;
-#X msg 242 509 0;
-#X obj 135 255 expr $f1 + 1;
-#X obj 82 123 r TRACK_B;
-#X obj 92 235 < 3;
-#X obj 250 424 == 3;
-#X obj 113 147 r T_TARGET;
-#X obj 266 344 r T_TARGET;
-#X obj 34 363 s trackswitch;
-#X obj 249 541 s trackswitch;
-#X obj 84 78 s TRACK_PRELIM;
+#N canvas 484 160 565 648 TRACK 0;
+#X obj 114 173 f;
+#X obj 15 289 t b;
+#X obj 15 325 f;
+#X obj 15 263 select 1;
+#X obj 112 385 f;
+#X obj 111 507 t b;
+#X obj 111 412 t f f;
+#X obj 111 476 select 1;
+#X obj 151 545 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 112 325 t b;
+#X msg 111 536 0;
+#X obj 134 292 expr $f1 + 1;
+#X obj 114 113 r TRACK_B;
+#X obj 15 237 < 3;
+#X obj 111 442 == 3;
+#X obj 132 146 r T_TARGET;
+#X obj 130 357 r T_TARGET;
+#X obj 15 362 s trackswitch;
+#X obj 111 577 s trackswitch;
+#X obj 68 56 s TRACK_PRELIM;
 #N canvas 201 102 706 580 TRACK_PRELIM 0;
-#X obj 153 34 r TRACK_PRELIM;
-#X obj 233 104 r L_TARGET;
+#X obj 210 56 r TRACK_PRELIM;
+#X obj 228 99 r L_TARGET;
 #X obj 210 164 route 0 1 2 3;
-#X obj 205 133 f;
-#X obj 372 271 f;
-#X obj 399 242 r 3-RUN;
-#X obj 362 245 t b;
-#X obj 373 296 == 1;
-#X obj 370 323 select 1;
-#X obj 369 363 s TRACK_B;
-#X obj 253 270 f;
-#X obj 243 244 t b;
-#X obj 254 295 == 1;
-#X obj 251 322 select 1;
-#X obj 250 362 s TRACK_B;
-#X obj 148 272 f;
-#X obj 138 246 t b;
-#X obj 149 297 == 1;
-#X obj 146 324 select 1;
-#X obj 145 364 s TRACK_B;
-#X obj 37 273 f;
-#X obj 27 247 t b;
-#X obj 38 298 == 1;
-#X obj 35 325 select 1;
-#X obj 34 365 s TRACK_B;
-#X obj 64 244 r 0-RUN;
-#X obj 174 243 r 1-RUN;
-#X obj 280 241 r 2-RUN;
+#X obj 210 133 f;
+#X obj 419 269 f;
+#X obj 446 244 r 3-RUN;
+#X obj 409 243 t b;
+#X obj 419 301 == 1;
+#X obj 419 328 select 1;
+#X obj 419 368 s TRACK_B;
+#X obj 300 268 f;
+#X obj 290 245 t b;
+#X obj 300 300 == 1;
+#X obj 300 327 select 1;
+#X obj 299 367 s TRACK_B;
+#X obj 186 271 f;
+#X obj 178 243 t b;
+#X obj 186 301 == 1;
+#X obj 188 327 select 1;
+#X obj 186 367 s TRACK_B;
+#X obj 77 272 f;
+#X obj 68 242 t b;
+#X obj 77 301 == 1;
+#X obj 77 328 select 1;
+#X obj 76 368 s TRACK_B;
+#X obj 107 243 r 0-RUN;
+#X obj 214 243 r 1-RUN;
+#X obj 327 245 r 2-RUN;
 #X connect 0 0 3 0;
 #X connect 1 0 3 1;
 #X connect 2 0 21 0;
@@ -3203,13 +3205,13 @@ ramp on and off to avoid CLICKS.;
 #X connect 26 0 15 1;
 #X connect 27 0 10 1;
 #X restore 208 56 pd TRACK_PRELIM;
-#X obj 85 42 r TRACK;
-#X obj 271 241 s focus;
-#X obj 226 212 expr $f2 * 4 + $f1;
-#X obj 336 166 r L_TARGET;
+#X obj 68 20 r TRACK;
+#X obj 266 288 s focus;
+#X obj 265 240 expr $f2 * 4 + $f1;
+#X obj 388 147 r L_TARGET;
 #X obj 114 207 t f f b f;
-#X obj 285 273 s FOCUSCHANGE;
-#X floatatom 379 248 5 0 0 0 - - -, f 5;
+#X obj 154 262 s FOCUSCHANGE;
+#X floatatom 342 289 5 0 0 0 - - -, f 5;
 #X connect 0 0 25 0;
 #X connect 1 0 2 0;
 #X connect 2 0 17 0;
@@ -3237,14 +3239,14 @@ ramp on and off to avoid CLICKS.;
 #X connect 25 2 26 0;
 #X connect 25 3 23 0;
 #X restore 343 28 pd TRACK;
-#N canvas 451 66 697 629 ARDUINO_CONTROLLER 1;
+#N canvas 731 79 697 629 ARDUINO_CONTROLLER 1;
 #X msg 119 12 devices;
 #X floatatom 138 213 20 0 0 0 - - -, f 20;
 #N canvas 415 167 450 375 LIVE_RECORD_BUTTON 0;
 #X obj 154 43 t b;
 #X obj 175 72 spigot 1;
-#X obj 222 131 tgl 26 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 222 131 tgl 26 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X msg 256 73 0;
 #X obj 256 45 select 1;
 #X msg 290 71 1;
@@ -3269,8 +3271,8 @@ ramp on and off to avoid CLICKS.;
 #X obj 101 75 t b;
 #X obj 99 137 s MON;
 #X obj 122 104 spigot 1;
-#X obj 169 163 tgl 26 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 169 163 tgl 26 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X msg 203 105 0;
 #X obj 203 77 select 1;
 #X msg 237 103 1;
@@ -3486,7 +3488,6 @@ ramp on and off to avoid CLICKS.;
 #X connect 10 0 3 0;
 #X connect 10 1 7 0;
 #X restore 138 49 pd TARGETS;
-#X floatatom 433 206 20 0 0 0 - - -, f 20;
 #N canvas 529 231 450 325 POTS_N_FADERS 0;
 #X obj 19 29 inlet;
 #N canvas 417 245 450 300 POT1 0;
@@ -3537,7 +3538,7 @@ ramp on and off to avoid CLICKS.;
 #X connect 7 1 3 0;
 #X connect 9 0 8 0;
 #X restore 88 158 pd FADER1;
-#N canvas 0 0 450 300 POT2 0;
+#N canvas 0 22 450 300 POT2 0;
 #X obj 17 16 inlet;
 #X obj 27 50 t f f;
 #X msg 109 116 1;
@@ -3726,21 +3727,15 @@ ramp on and off to avoid CLICKS.;
 #X text 590 413 fade_out;
 #X msg 9 14 open 0;
 #X msg 62 14 close 0;
-#X obj 136 157 comport 0 9600;
-#X text 179 184 ACM0;
-#X obj 404 151 comport 1 9600;
-#X msg 386 41 open 1;
-#X msg 440 41 close 1;
-#X text 453 175 ACM1;
-#X text 554 14 AMA0 is trash;
-#X text 221 182 PEDAL;
-#X text 506 175 REMOTE;
-#X msg 333 136 dtr 1;
 #X obj 223 522 s B-SIXTEEN;
 #X obj 330 242 select 241 243 244 245 246 247 242 251 250 248 249;
 #X obj 269 560 s B-SEVENTEEN;
-#X connect 0 0 44 0;
+#X obj 136 157 comport 1 9600;
+#X text 506 175;
+#X text 179 184 Teensy;
+#X connect 0 0 46 0;
 #X connect 1 0 22 0;
+#X connect 1 0 44 0;
 #X connect 22 0 4 0;
 #X connect 22 1 5 0;
 #X connect 22 2 6 0;
@@ -3755,35 +3750,28 @@ ramp on and off to avoid CLICKS.;
 #X connect 22 12 25 0;
 #X connect 22 13 26 0;
 #X connect 22 14 27 0;
-#X connect 28 0 44 0;
+#X connect 28 0 46 0;
 #X connect 29 0 28 0;
 #X connect 29 0 30 0;
 #X connect 30 0 28 0;
-#X connect 30 0 53 0;
-#X connect 31 0 44 0;
 #X connect 31 0 46 0;
-#X connect 32 0 44 0;
-#X connect 33 0 44 0;
-#X connect 34 0 55 0;
-#X connect 42 0 44 0;
-#X connect 43 0 44 0;
-#X connect 44 0 1 0;
-#X connect 46 0 34 0;
-#X connect 47 0 46 0;
-#X connect 48 0 46 0;
-#X connect 53 0 46 0;
-#X connect 55 0 4 0;
-#X connect 55 1 5 0;
-#X connect 55 2 7 0;
-#X connect 55 3 8 0;
-#X connect 55 4 9 0;
-#X connect 55 5 54 0;
-#X connect 55 6 24 0;
-#X connect 55 7 27 0;
-#X connect 55 8 25 0;
-#X connect 55 9 23 0;
-#X connect 55 10 56 0;
-#X connect 55 11 35 0;
+#X connect 32 0 46 0;
+#X connect 33 0 46 0;
+#X connect 41 0 46 0;
+#X connect 42 0 46 0;
+#X connect 44 0 4 0;
+#X connect 44 1 5 0;
+#X connect 44 2 7 0;
+#X connect 44 3 8 0;
+#X connect 44 4 9 0;
+#X connect 44 5 43 0;
+#X connect 44 6 24 0;
+#X connect 44 7 27 0;
+#X connect 44 8 25 0;
+#X connect 44 9 23 0;
+#X connect 44 10 45 0;
+#X connect 44 11 34 0;
+#X connect 46 0 1 0;
 #X restore 254 422 pd ARDUINO_CONTROLLER;
 #N canvas 437 66 801 654 BUTTON_CONFIG 0;
 #X obj 29 154 r B-ONE;
@@ -3793,18 +3781,18 @@ ramp on and off to avoid CLICKS.;
 #X obj 232 151 r B-FIVE;
 #X obj 24 35 r B-EIGHT;
 #X obj 567 155 s LIVE_RECORD_BUTTON;
-#X obj 32 227 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 104 229 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 173 228 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 241 228 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 34 97 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 238 96 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 32 227 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X obj 104 229 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 173 228 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 241 228 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 34 97 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X obj 238 96 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 662 311 s MON_BUTTON;
 #X obj 156 331 r B-TEN;
 #X obj 574 124 r B-ELEVEN;
@@ -3853,8 +3841,8 @@ ramp on and off to avoid CLICKS.;
 #X msg 214 238 0;
 #X obj 14 60 select 1;
 #X obj 81 62 select 1;
-#X obj 105 291 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 105 291 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X floatatom 188 63 5 0 0 0 - - -, f 5;
 #X obj 11 118 delay 2;
 #X obj 83 120 delay 2;
@@ -3883,8 +3871,8 @@ ramp on and off to avoid CLICKS.;
 #X obj 206 91 select 0;
 #X obj 4 149 select 1;
 #X obj 71 151 select 1;
-#X obj 80 431 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 80 431 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X floatatom 204 63 5 0 0 0 - - -, f 5;
 #X obj 63 22 r THREE_LOOPS;
 #X obj 199 29 r BOTH_YELLOW;
@@ -3944,8 +3932,8 @@ ramp on and off to avoid CLICKS.;
 #X obj 173 56 select 1;
 #X obj 69 32 r AutoPT;
 #X obj 173 29 r OVERWRITE;
-#X obj 101 304 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 101 304 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X obj 172 94 t b;
 #X obj 68 70 t b f;
 #X obj 64 105 f;
@@ -3976,15 +3964,15 @@ ramp on and off to avoid CLICKS.;
 #X obj 206 91 select 0;
 #X obj 4 149 select 1;
 #X obj 71 151 select 1;
-#X obj 80 431 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 80 431 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X floatatom 204 63 5 0 0 0 - - -, f 5;
 #X obj 138 379 metro 250;
 #X msg 81 345 stop;
 #X msg 134 349 stop;
 #X msg 282 382 0;
-#X obj 339 102 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
+#X obj 339 102 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
 #X obj 249 147 t b b;
 #X obj 7 102 f;
 #X obj 62 100 f;
@@ -4092,8 +4080,8 @@ ramp on and off to avoid CLICKS.;
 #X obj 202 347 f;
 #X obj 128 346 f;
 #X obj 55 345 f;
-#X obj 553 67 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 553 67 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 396 161 r plight6;
 #X obj 481 314 spigot;
 #X obj 487 442 f;
@@ -4248,18 +4236,18 @@ ramp on and off to avoid CLICKS.;
 #X msg 1041 298 1;
 #X msg 1078 298 0;
 #X obj 381 261 r slight6;
-#X obj 438 134 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 411 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-50;
+#X obj 438 134 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 411 92 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 50;
 #X obj 785 265 t b b;
 #X obj 674 259 t b b;
 #X obj 764 355 s S-STOP;
 #X obj 858 336 s FS-STOP;
 #X obj 862 304 t b;
-#X obj 840 270 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#N canvas 0 0 450 300 SET_REC_MODE 0;
+#X obj 840 270 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#N canvas 0 22 450 300 SET_REC_MODE 0;
 #X obj 13 37 inlet;
 #X obj 31 103 f;
 #X obj 58 63 r S-REC-MODE;
@@ -4284,7 +4272,7 @@ ramp on and off to avoid CLICKS.;
 #X connect 5 0 11 0;
 #X connect 12 0 4 0;
 #X restore 17 206 pd SET_REC_MODE;
-#N canvas 0 0 450 300 SET_PLAY_MODE 0;
+#N canvas 0 22 450 300 SET_PLAY_MODE 0;
 #X obj 13 37 inlet;
 #X obj 31 103 f;
 #X obj 58 63 r S-REC-MODE;
@@ -4318,10 +4306,10 @@ ramp on and off to avoid CLICKS.;
 #X text 328 246 3 record mode 2;
 #X text 49 12 2, f 3;
 #X text 132 17 3;
-#X obj 57 183 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 166 181 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 57 183 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 166 181 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X obj 40 132 metro 500;
 #X obj 149 130 metro 500;
 #X msg 203 93 stop;
@@ -4356,7 +4344,7 @@ ramp on and off to avoid CLICKS.;
 #X msg 803 104 17;
 #X msg 842 104 18;
 #X msg 883 106 19;
-#N canvas 0 0 450 300 lights_4_sampler 0;
+#N canvas 0 22 450 300 lights_4_sampler 0;
 #X obj 110 26 r TRACK_STATE;
 #X obj 76 64 route 16 17 18 19;
 #X obj 71 111 select 0 4;
@@ -4552,21 +4540,21 @@ ramp on and off to avoid CLICKS.;
 #X text 685 282 T+Y;
 #X text 476 278 T+R;
 #X text 202 283 Track +;
-#X obj 389 203 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 651 200 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 484 202 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 552 202 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 520 152 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
+#X obj 389 203 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 651 200 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 484 202 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 552 202 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 520 152 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
 #X text 584 100 T + B;
 #X text 127 96 PEDAL;
 #X text 537 58 REMOTE;
-#X obj 656 41 bng 41 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 656 41 bng 41 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X text 654 88 TRACK;
 #N canvas 650 136 416 445 STOPS 0;
 #X obj 23 20 inlet;
@@ -4577,8 +4565,8 @@ ramp on and off to avoid CLICKS.;
 #X msg 96 250 1;
 #X msg 136 251 0;
 #X obj 49 78 r AUTO_STOP;
-#X obj -5 34 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj -5 34 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 27 134 select 0;
 #X obj 150 153 r MRT_UI_R;
 #X obj 112 191 f;
@@ -4646,8 +4634,8 @@ ramp on and off to avoid CLICKS.;
 #X obj 29 95 + 1;
 #X msg 160 188 0;
 #X obj 89 139 s BLUE_SETTING;
-#X obj -7 42 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj -7 42 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X floatatom 99 72 5 0 0 0 - - -, f 5;
 #X obj 24 175 select 0 1 2 3;
 #X obj 32 64 f;
@@ -4656,10 +4644,10 @@ ramp on and off to avoid CLICKS.;
 #X msg 48 249 0;
 #X msg 125 242 1;
 #X msg 161 244 0;
-#X obj 32 288 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 153 285 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 32 288 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 153 285 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X connect 0 0 10 0;
 #X connect 3 0 8 0;
 #X connect 3 0 10 1;
@@ -4691,8 +4679,8 @@ ramp on and off to avoid CLICKS.;
 #X obj -4 5 inlet;
 #X obj 29 95 + 1;
 #X msg 160 188 0;
-#X obj -7 42 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj -7 42 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X floatatom 99 72 5 0 0 0 - - -, f 5;
 #X obj 24 175 select 0 1 2 3;
 #X obj 32 64 f;
@@ -4701,10 +4689,10 @@ ramp on and off to avoid CLICKS.;
 #X msg 48 249 0;
 #X msg 125 242 1;
 #X msg 161 244 0;
-#X obj 32 288 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 153 285 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 32 288 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 153 285 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X obj 15 320 s CFT_UI_R;
 #X obj 51 28 r YELLOW_SETTING;
 #X obj 89 139 s YELLOW_SETTING;
@@ -4767,8 +4755,8 @@ ramp on and off to avoid CLICKS.;
 #X obj 398 180 f;
 #X obj 463 184 f;
 #X obj 350 154 r 2-LS;
-#X obj 261 279 tgl 15 0 PL_PLAY empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+#X obj 261 279 tgl 15 0 PL_PLAY empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X msg 263 252 1;
 #X msg 300 253 0;
 #X obj 217 66 t b;
@@ -4910,8 +4898,8 @@ ramp on and off to avoid CLICKS.;
 #X obj 32 81 select 0 1;
 #X msg 14 143 1;
 #X msg 52 145 0;
-#X obj 31 234 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 31 234 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 47 39 r MRT;
 #X obj 119 41 loadbang;
 #X obj 130 93 s MRT_UI_R;
@@ -4921,20 +4909,20 @@ ramp on and off to avoid CLICKS.;
 #X obj 517 83 select 0 1;
 #X msg 519 136 1;
 #X msg 557 138 0;
-#X obj 536 227 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 536 227 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X obj 565 195 s CFT_INVERSE;
 #X msg 569 51 0;
 #X obj 573 17 loadbang;
 #X obj 704 48 s LOOPER_T;
-#X obj 699 -1 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 699 -1 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
 #X msg 632 69 1;
 #X obj 609 -14 r CLEAR;
 #X obj 60 202 s ALLOW_STOPS;
 #X obj 692 141 s POT5;
-#X obj 687 97 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 687 97 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 724 102 r CLEAR;
 #X obj 364 29 r L_TARGET;
 #X obj 270 28 r T_TARGET;
@@ -5047,13 +5035,13 @@ ramp on and off to avoid CLICKS.;
 #X connect 28 0 25 0;
 #X connect 36 0 35 0;
 #X restore 96 605 pd CODE;
-#X obj 24 420 tgl 19 0 AUTO_STOP AUTO_STOP_UI empty 17 7 0 10 -131078
--1 -1 0 1;
-#X obj 21 354 tgl 19 0 THREE_LOOPS THREE_LOOPS_UI empty 17 7 0 10 -257986
--1 -1 0 1;
+#X obj 24 420 tgl 19 0 AUTO_STOP AUTO_STOP_UI empty 17 7 0 10 #800014
+#000000 #000000 0 1;
+#X obj 21 354 tgl 19 0 THREE_LOOPS THREE_LOOPS_UI empty 17 7 0 10 #f8fc04
+#000000 #000000 0 1;
 #X text 55 350 Only 3 loops;
-#X obj 48 508 tgl 19 0 OVERWRITE OVERWRITE_UI empty 17 7 0 10 -4036
--1 -1 0 1;
+#X obj 48 508 tgl 19 0 OVERWRITE OVERWRITE_UI empty 17 7 0 10 #00fc0c
+#000000 #000000 0 1;
 #X text 70 441 Allow Multiple;
 #X text 54 419 Auto Stop OR...;
 #X text 184 237 (blink);
