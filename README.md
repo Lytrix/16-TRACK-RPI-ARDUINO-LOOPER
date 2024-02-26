@@ -38,6 +38,11 @@ I also forget where I got the metal enclosure for the foot pedal
 
 SOFTWARE LIST:
 
+To make the PD more interchangeable I changed the Purr Files to PD Vanilla ones.
+You do need to install 2 depencies via deken (can be done via the help menu)
+- zexy	 : for limiter, z, date, time and l2s (list 2 string)
+- comport: for serial communication
+
 Linux OS - Patchbox --> CODE / OS NOT POSTED. I used a Rasberry Pi 4B I think it's called.
 
 Phython Script to launch purr data --> NOT POSTED
